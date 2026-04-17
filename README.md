@@ -5,6 +5,9 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
+## 🌐 Live App
+👉 [Click here to open the app](https://house-price-sanjay.streamlit.app)
+
 ## 📌 Problem Statement
 Predict the sale price of residential homes in Ames, Iowa based on
 79 explanatory variables describing every aspect of the house.
