@@ -13,13 +13,13 @@ st.set_page_config(
 # ─── Load Model and Feature Names ──────────────────────────────
 @st.cache_resource
 def load_model():
-    with open('../models/house_price_model.pkl', 'rb') as f:
+    with open('models/house_price_model.pkl', 'rb') as f:
         model = pickle.load(f)
     return model
 
 @st.cache_resource
 def load_features():
-    with open('../models/feature_names.pkl', 'rb') as f:
+    with open('models/feature_names.pkl', 'rb') as f:
         features = pickle.load(f)
     return features
 
